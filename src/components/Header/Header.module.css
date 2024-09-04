@@ -1,0 +1,29 @@
+header {
+    background-color: #f8f9fa;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 4rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.75rem;
+    border-bottom: 2px solid transparent;
+    transition: .3s opacity;
+}
+
+a:not(.active):hover{
+    opacity: .7;
+}
+
+a.active {
+    border-color: #333;
+}
