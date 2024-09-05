@@ -38,7 +38,7 @@ const planos = [
 
 function AboutPage() {
   return (
-    <div style={styles.container}>
+    <main style={styles.container}>
       <div style={styles.content}>
         <div style={styles.leftSection}>
           <h1 style={styles.title}>Bem-vindo à resolução dos vídeos</h1>
@@ -60,11 +60,11 @@ function AboutPage() {
         <h2 style={styles.planosTitle}>Planos</h2>
         <div style={styles.planosList}>
           {planos.map((item, index) => (
-            <Planos {...item} key={index}/>
+            <Planos {...item} key={index} />
           ))}
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 
@@ -78,7 +78,7 @@ const styles = {
     justifyContent: "space-between",
     alignItems: "flex-start",
     marginBottom: "30px",
-    padding:"40px 0"
+    padding: "40px 0",
   },
   leftSection: {
     maxWidth: "500px",
