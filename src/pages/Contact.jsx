@@ -45,6 +45,8 @@ const styles = {
     display: "flex",
     flexDirection: "row",
     alignItems: "flex-start",
+    flex:1
+
   },
   leftSection: {
     maxWidth: "none",
